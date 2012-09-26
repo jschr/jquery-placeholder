@@ -1,4 +1,3 @@
-
 // Cross-browser HTML5 placeholder for inputs and textareas by emulating 
 // WebKit's placeholder functionality. Will use browser's native 
 // implementation if available.
@@ -33,7 +32,7 @@
 				initalValue = '';
 			}
 			
-			// if elements already exist, update the placeholder value and move on;
+			// if elements already exist, update the placeholder value and move on
 			if ($this.data('placeholder')){
 				$this.data('placeholder').val(initalValue);
 				$this.change();
